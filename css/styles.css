@@ -1,0 +1,10 @@
+.container{
+width: 1326px;
+}
+.navbar{
+    display:flex;
+    align-items: end;
+}
+.navbar ul {
+    display:flex
+}

@@ -14,9 +14,11 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
-
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" /> -->
     <link rel="stylesheet" href="css/styles.css">
 
     <meta name="theme-color" content="#fafafa" />
@@ -24,11 +26,10 @@
 
   <body>
     <div class="container">
-      <header>
         <!--Navbar-->
         <nav class="navbar">
           <div>
-            <a href="">Pluto</a>
+            <a href="" class="logo">Pluto</a>
           </div>
           <div>
             <ul>
@@ -41,52 +42,55 @@
           </div>
           <div>
             <button>
-              <a href="">Get Started</a>
+              <a href="" class="get_started">Get Started</a>
             </button>
           </div>
         </nav>
         <!--Navbar Close-->
-      </header>
-      <div>
+      
+      <div class="hero_section">
         <!--Flex 1-->
-        <div>
+        <div class="hero_flex_1">
           <h1>
             Send money abroad faster
           </h1>
-          <div>
+          <div class="money_input">
             <input type="text">
-            <div>
+            <div class="currency_input">
                 <p></p>
                 <p>USD</p>
             </div>
-            <button>
+            <button class="send_btn">
               <a href="">Send Now</a>
             </button>
           </div>
-          <div>
+          <div class="hero_info">
             <div>
               <h3>Send money in minutes</h3>
-              <p>You can make a transaction in a     few minutes with our secure system.</p>
-              <a href="">View More</a>
+              <p class="hero_info_p">You can make a transaction in a     few minutes with our secure system.</p>
+              <a href="#" class="hero_info_a">View More</a>
             </div>
             <div>
               <h3>Recieve cryptocurrencies</h3>
-              <p>You can easily recieve and send Bitcoin and Ethereum.</p>
-              <a href="">View More</a>
+              <p class="hero_info_p">You can easily recieve and send Bitcoin and Ethereum.</p>
+              <a href="#" class="hero_info_a">View More</a>
             </div>
           </div>
         </div>
         <!--Flex 1 close-->
 
         <!--Flex 2-->
-        <img src="/img/moneyimage.png" alt="">
+        <!-- <div class="hero_image">
+
+        </div> -->
+        <!-- <img src="/img/moneyimage.png" alt=""> -->
       </div>
     </div>
     <!-- Add your site or application content here -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+ 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {

@@ -49,6 +49,7 @@ background-size: 65%
   display: flex;
   height: 173px;
   width: 602px;
+  margin-top: 70px;
 }
 .hero_info div {
   height: 173px;
@@ -84,15 +85,20 @@ background-size: 65%
   height: 30px;
   outline: none;
   border: none;
-  border-right: 1px solid black;
-  padding: 6px;
+  border-right: 1px solid rgb(196, 185, 185);
+  padding: 8px;
 }
 .currency_input {
   width: 200px;
   height: 30px;
   outline: none;
   border: none;
-  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-right: 66px;
+  margin-bottom: 13px;
 }
 .currency_input p {
   font-size: 22px;
@@ -100,7 +106,6 @@ background-size: 65%
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 8px;
 }
 .send_btn {
   width: 159px;

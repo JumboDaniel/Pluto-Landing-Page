@@ -1,0 +1,155 @@
+body {
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  * {
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navbar ul {
+    display: flex;
+    width: 477px;
+    align-items: flex-end;
+    justify-content: space-around;
+    justify-items: center;
+    list-style-type: none;
+  }
+  .navbar ul li a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .hero_section {
+   margin-left: 288px;
+   
+  background-image: url(../img/coinbackground.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 55%
+  }
+  
+  .hero_flex_1 {
+    height: 593px;
+    width: 854px;margin-top: 150px; 
+    left: 56px;
+    top: 279px;
+    border-radius: 0px;
+  }
+  .hero_info {
+    display: flex;
+    height: 173px;
+    width: 602px;
+    margin-top: 70px;
+  }
+  .hero_info div {
+    height: 173px;
+    width: 275px;
+  }
+  .hero_info_p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+  }
+  .hero_info_a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: #0547ff;
+    text-decoration: none;
+  }
+  .money_input {
+    height: 70px;
+    width: 650px;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    box-shadow: 7px 0px 9px 6px rgba(0,0,0,0.25);
+    padding: 4px 3px 8px 3px;
+    border-radius: 4px;
+  }
+  .money_input input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-right: 1px solid rgb(196, 185, 185);
+    padding: 8px;
+  }
+  .currency_input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-right: 66px;
+    margin-bottom: 13px;
+  }
+  .currency_input p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .send_btn {
+    width: 159px;
+    height: 68px;
+    left: 40px;
+    top: 0px;
+    background: #000000;
+    border-radius: 6px;
+  }
+  .send_btn a {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  h1 {
+      width: 600px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 95px;
+    color: #000000;
+  }
+  button {
+    width: 142px;
+    height: 52px;
+    background: #000000;
+  }
+  button .get_started {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  div .logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    text-decoration: none;
+  }
+  

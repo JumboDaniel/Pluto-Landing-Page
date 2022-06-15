@@ -31,6 +31,7 @@ body {
 }
 .hero_section {
  margin-left: 288px;
+ 
 background-image: url(../img/moneyimage.png);
 background-repeat: no-repeat;
 background-position:right;
@@ -39,7 +40,7 @@ background-size: 65%
 
 .hero_flex_1 {
   height: 593px;
-  width: 854px;
+  width: 854px;margin-top: 150px; 
   left: 56px;
   top: 279px;
   border-radius: 0px;
